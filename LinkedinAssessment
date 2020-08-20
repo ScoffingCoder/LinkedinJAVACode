@@ -1,0 +1,84 @@
+import java.util.LinkedList;
+
+public class HelloWorld{
+
+     public static void main(String []args){
+       // System.out.print("apple".compareTo("banana"));
+       
+       //String fruit = "strawberries";
+       // System.out.print(fruit.substring(2,5));
+       
+       //List list = new ArrayList(); 
+       //list.add("Hello");
+       //list.add(2);
+       //System.out.print(list.get(0) instanceof Object);
+       //System.out.print(list.get(1) instanceof Integer);
+       
+       //int a = 123451234512345;
+       //System.out.print(a);
+       
+       //int array[] = {1,2,3,4};
+        //for (int i; i < array.size() ;i++){
+         //   System.out.print(array[i]);
+        
+        //try{
+        //    System.out.print("Hello World");
+        //}catch(Exception e){
+        //    System.out.println("e");
+        //}catch(ArithmeticException e){
+        //    System.out.println("e");
+        //}finally{
+        //    System.out.print("!");
+        //}
+        
+        //System.out.print("schwifty" instanceof String);
+        
+        //try{
+        //    System.out.println("A");
+        //    badMethod();
+        //    System.out.println("B");
+        //}catch(Exception e){
+        //    System.out.println("C");
+        //}finally{
+        //    System.out.println("D");
+        // }
+       
+      //   System.out.print(print(1));
+     // for (int i=0; i<= 10 ; i=i++){
+     //     i+=1;
+     //     System.out.println("Hello");
+      //}
+     
+     //String message = "Hello World!";
+     //String newMessage = message.substring(6,12)
+     //       + message.substring(12,6);
+     //System.out.println(newMessage);  
+     
+     //[5,1,10]
+     
+     LinkedList<Integer> list = new LinkedList<>();
+        list.add(5);
+        list.add(1);
+        list.add(10);
+        System.out.println(list);
+     }
+     
+     //static Exception print(int i){
+     //    if(i>0){
+     //        return new Exception();
+     //    }else{
+     //        throw new RuntimeException();
+     //    }
+     //}
+       //public static void badMethod(){
+        //   throw new Error();
+       //}
+       //public class Duck{
+        //   private String name;
+        //   Duck(String name){}
+       //}
+       
+       
+       
+}
+
